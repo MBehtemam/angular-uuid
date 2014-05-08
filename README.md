@@ -6,9 +6,9 @@ Angular UUID and GUID Generator
 ##How to use
 ###1
 incluede `angular.uuid.js` or `angular.uuid.min.js` 
----html
+```html
 <script src="angular.uuid.js"></script>
-----
+````
 
 ###2
 ---javascript
