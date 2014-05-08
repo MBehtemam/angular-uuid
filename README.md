@@ -11,36 +11,36 @@ incluede `angular.uuid.js` or `angular.uuid.min.js`
 ````
 
 ###2
----javascript
+```javascript
 var app = angular.module('app',['angularUUID']);
------
+````
 
 ###3
 Inject into your controller
 
----javascript
+```javascript
 app.controller('mainCtrl', ['$scope','uuid', function($scope,uuid){
 
 }])
-----
+````
 
 ###4.1
 now you can get UUID 
 
----javascipt
+```javascipt
 app.controller('mainCtrl', ['$scope','uuid', function($scope,uuid){
 	$scope.getId = function(){
 		$scope.id = uuid.newuuid();
 	}
 }])
-----
+````
 ###4.2
 or GUID 
----javascript
+```javascript
 app.controller('mainCtrl', ['$scope','uuid', function($scope,uuid){
 	$scope.getId = function(){
 		$scope.id = uuid.newguid();
 	}
 }])
-----
+````
 
