@@ -8,20 +8,21 @@ Angular UUID and GUID Generator
 incluede `angular.uuid.js` or `angular.uuid.min.js` 
 ---html
 <script src="angular.uuid.js"></script>
----
+----
 
 ###2
 ---javascript
 var app = angular.module('app',['angularUUID']);
-----
+-----
 
 ###3
 Inject into your controller
+
 ---javascript
 app.controller('mainCtrl', ['$scope','uuid', function($scope,uuid){
 
 }])
----
+----
 
 ###4.1
 now you can get UUID 
@@ -32,7 +33,7 @@ app.controller('mainCtrl', ['$scope','uuid', function($scope,uuid){
 		$scope.id = uuid.newuuid();
 	}
 }])
----
+----
 ###4.2
 or GUID 
 ---javascript
@@ -41,5 +42,5 @@ app.controller('mainCtrl', ['$scope','uuid', function($scope,uuid){
 		$scope.id = uuid.newguid();
 	}
 }])
----
+----
 
