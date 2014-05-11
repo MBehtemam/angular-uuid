@@ -1,0 +1,5 @@
+{
+    "name": "Angular.uuid",
+    "version": "0.0.1",
+    "main": "dist/angular-uuid.min.js",
+}
