@@ -10,6 +10,13 @@ incluede `angular.uuid2.js` or `angular.uuid2.min.js`
 <script src="angular.uuid2.js"></script>
 ````
 
+or you can install this package from bower 
+
+```
+bower install angular.uuid2
+````
+
+
 ###2
 ```javascript
 var app = angular.module('app',['angularUUID2']);
