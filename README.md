@@ -5,7 +5,7 @@ Angular UUID and GUID Generator
 
 ##How to use
 ###1
-incluede `angular.uuid2.js` or `angular.uuid2.min.js` 
+include `angular.uuid2.js` or `angular.uuid2.min.js` 
 ```html
 <script src="angular.uuid2.js"></script>
 ````
