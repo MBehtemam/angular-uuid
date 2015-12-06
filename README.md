@@ -13,7 +13,7 @@ incluede `angular.uuid2.js` or `angular.uuid2.min.js`
 or you can install this package from bower 
 
 ```
-bower install angular.uuid2
+bower install angular-uuid2
 ````
 
 
